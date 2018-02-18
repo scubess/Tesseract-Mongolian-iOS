@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003E0B4D203A2D5F00C70E1A /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 003E0B4C203A2D5F00C70E1A /* tessdata */; };
+		0048D925203A2A6100380323 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048D924203A2A6000380323 /* CoreImage.framework */; };
+		0048D927203A2A7B00380323 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048D926203A2A7B00380323 /* libstdc++.6.0.9.tbd */; };
+		0072A840203A298C004E1519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072A83F203A298C004E1519 /* AppDelegate.swift */; };
+		0072A842203A298C004E1519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072A841203A298C004E1519 /* ViewController.swift */; };
+		0072A845203A298C004E1519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0072A843203A298C004E1519 /* Main.storyboard */; };
+		0072A847203A298C004E1519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0072A846203A298C004E1519 /* Assets.xcassets */; };
+		0072A84A203A298C004E1519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0072A848203A298C004E1519 /* LaunchScreen.storyboard */; };
+		8426D07D6DFF5612E5C59DD1 /* Pods_Tesseract_Mongolian_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EFBE9D82C793863809499B /* Pods_Tesseract_Mongolian_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003E0B4C203A2D5F00C70E1A /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		0048D924203A2A6000380323 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0048D926203A2A7B00380323 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		0048D928203A2A9C00380323 /* Tesseract-Mongolian-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tesseract-Mongolian-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		0072A83C203A298C004E1519 /* Tesseract-Mongolian-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tesseract-Mongolian-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0072A83F203A298C004E1519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0072A841203A298C004E1519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0072A844203A298C004E1519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0072A846203A298C004E1519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0072A849203A298C004E1519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0072A84B203A298C004E1519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7C0E5A036DEACE01860879 /* Pods-Tesseract-Mongolian-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesseract-Mongolian-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tesseract-Mongolian-iOS/Pods-Tesseract-Mongolian-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		661DB7E835B65F2BF41EF0AA /* Pods-Tesseract-Mongolian-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesseract-Mongolian-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tesseract-Mongolian-iOS/Pods-Tesseract-Mongolian-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		92EFBE9D82C793863809499B /* Pods_Tesseract_Mongolian_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tesseract_Mongolian_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0072A839203A298C004E1519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0048D925203A2A6100380323 /* CoreImage.framework in Frameworks */,
+				0048D927203A2A7B00380323 /* libstdc++.6.0.9.tbd in Frameworks */,
+				8426D07D6DFF5612E5C59DD1 /* Pods_Tesseract_Mongolian_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0072A833203A298C004E1519 = {
+			isa = PBXGroup;
+			children = (
+				0072A83E203A298C004E1519 /* Tesseract-Mongolian-iOS */,
+				0072A83D203A298C004E1519 /* Products */,
+				0C266DC7CD11127A78718CB5 /* Pods */,
+				80C51712037DAF197218263C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0072A83D203A298C004E1519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0072A83C203A298C004E1519 /* Tesseract-Mongolian-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0072A83E203A298C004E1519 /* Tesseract-Mongolian-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0072A83F203A298C004E1519 /* AppDelegate.swift */,
+				0072A841203A298C004E1519 /* ViewController.swift */,
+				0072A843203A298C004E1519 /* Main.storyboard */,
+				0072A846203A298C004E1519 /* Assets.xcassets */,
+				0072A848203A298C004E1519 /* LaunchScreen.storyboard */,
+				003E0B4C203A2D5F00C70E1A /* tessdata */,
+				0072A84B203A298C004E1519 /* Info.plist */,
+				0048D928203A2A9C00380323 /* Tesseract-Mongolian-iOS-Bridging-Header.h */,
+			);
+			path = "Tesseract-Mongolian-iOS";
+			sourceTree = "<group>";
+		};
+		0C266DC7CD11127A78718CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				661DB7E835B65F2BF41EF0AA /* Pods-Tesseract-Mongolian-iOS.debug.xcconfig */,
+				5C7C0E5A036DEACE01860879 /* Pods-Tesseract-Mongolian-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80C51712037DAF197218263C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0048D926203A2A7B00380323 /* libstdc++.6.0.9.tbd */,
+				0048D924203A2A6000380323 /* CoreImage.framework */,
+				92EFBE9D82C793863809499B /* Pods_Tesseract_Mongolian_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0072A83B203A298C004E1519 /* Tesseract-Mongolian-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0072A84E203A298C004E1519 /* Build configuration list for PBXNativeTarget "Tesseract-Mongolian-iOS" */;
+			buildPhases = (
+				72EC6518D9139E53CF8C77A2 /* [CP] Check Pods Manifest.lock */,
+				0072A838203A298C004E1519 /* Sources */,
+				0072A839203A298C004E1519 /* Frameworks */,
+				0072A83A203A298C004E1519 /* Resources */,
+				70B04E270AB59A9C697346E8 /* [CP] Embed Pods Frameworks */,
+				0CFA7F4162E7F78B99760A25 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tesseract-Mongolian-iOS";
+			productName = "Tesseract-Mongolian-iOS";
+			productReference = 0072A83C203A298C004E1519 /* Tesseract-Mongolian-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0072A834203A298C004E1519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Lshiva;
+				TargetAttributes = {
+					0072A83B203A298C004E1519 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0072A837203A298C004E1519 /* Build configuration list for PBXProject "Tesseract-Mongolian-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0072A833203A298C004E1519;
+			productRefGroup = 0072A83D203A298C004E1519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0072A83B203A298C004E1519 /* Tesseract-Mongolian-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0072A83A203A298C004E1519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0072A84A203A298C004E1519 /* LaunchScreen.storyboard in Resources */,
+				003E0B4D203A2D5F00C70E1A /* tessdata in Resources */,
+				0072A847203A298C004E1519 /* Assets.xcassets in Resources */,
+				0072A845203A298C004E1519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFA7F4162E7F78B99760A25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tesseract-Mongolian-iOS/Pods-Tesseract-Mongolian-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70B04E270AB59A9C697346E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tesseract-Mongolian-iOS/Pods-Tesseract-Mongolian-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tesseract-Mongolian-iOS/Pods-Tesseract-Mongolian-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72EC6518D9139E53CF8C77A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tesseract-Mongolian-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0072A838203A298C004E1519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0072A842203A298C004E1519 /* ViewController.swift in Sources */,
+				0072A840203A298C004E1519 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0072A843203A298C004E1519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0072A844203A298C004E1519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0072A848203A298C004E1519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0072A849203A298C004E1519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0072A84C203A298C004E1519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0072A84D203A298C004E1519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0072A84F203A298C004E1519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661DB7E835B65F2BF41EF0AA /* Pods-Tesseract-Mongolian-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N5EX22VUM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Tesseract-Mongolian-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scubess.Tesseract-Mongolian-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tesseract-Mongolian-iOS/Tesseract-Mongolian-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0072A850203A298C004E1519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7C0E5A036DEACE01860879 /* Pods-Tesseract-Mongolian-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N5EX22VUM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Tesseract-Mongolian-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scubess.Tesseract-Mongolian-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tesseract-Mongolian-iOS/Tesseract-Mongolian-iOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0072A837203A298C004E1519 /* Build configuration list for PBXProject "Tesseract-Mongolian-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0072A84C203A298C004E1519 /* Debug */,
+				0072A84D203A298C004E1519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0072A84E203A298C004E1519 /* Build configuration list for PBXNativeTarget "Tesseract-Mongolian-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0072A84F203A298C004E1519 /* Debug */,
+				0072A850203A298C004E1519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0072A834203A298C004E1519 /* Project object */;
+}
