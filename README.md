@@ -1,4 +1,4 @@
-# Tesseract-Mongolian-Training
+# Tesseract-Mongolian-iOS
 This a repository of sample iOS application for fully trained mongolian cyrillic text recognition in tesseract v3.03 & Leptonica 1.71. In order to run the application,
 
 * Pod install tesseract with latest version 
@@ -19,4 +19,4 @@ If you have any issues like,
 
 Please check the iOS tesseract engine version match with trained version. If you have any weird issues please refer to tesseract FAQ page [here](https://github.com/tesseract-ocr/tesseract/wiki/FAQ#actual_tessdata_num_entries_-tessdata_num_entrieserrorassert-failedin-file-ccutiltessdatamanagercpp-line-55_)
 
-NOTES: If you looking for 
+NOTE: If you looking for tesseract mongolian trained data for iOS11, please refer this [link](https://github.com/scubess/Tesseract-Mongolian-Training)
