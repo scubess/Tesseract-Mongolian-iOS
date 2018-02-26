@@ -18,7 +18,7 @@ class ViewController: UIViewController, G8TesseractDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         tesseract?.delegate = self
         tesseract?.pageSegmentationMode = .singleColumn
-        tesseract?.image = UIImage(named:"mongolian-cyrillic")
+        tesseract?.image = UIImage(named:"mongolian-cyrillic-2")
         tesseract?.recognize()
         
         guard var text = tesseract?.recognizedText else {
